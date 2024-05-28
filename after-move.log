@@ -1,0 +1,81 @@
+
+
+[2A[1m<[0;32;1m======[0;39;1m-------> 50% CONFIGURING [49ms][m[38D[1B[1m> :lib[m[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [149ms][m[40D[1B> IDLE[6D[1B[2A[0K
+[1m> Task :lib:compileReleaseCpp[m[33m UP-TO-DATE[39m
+Appending implementation to build cache key: org.gradle.language.cpp.tasks.CppCompile_Decorated@531869057d90e73ca2026aa1fb95725d
+Appending additional implementation to build cache key: org.gradle.language.cpp.tasks.CppCompile_Decorated@531869057d90e73ca2026aa1fb95725d
+Appending input value fingerprint for 'compilerArgs' to build cache key: 8222d82255460164427051d7537fa305
+Appending input value fingerprint for 'compilerVersion' to build cache key: cc37ced03904da05cce6e71e5a62517f
+Appending input value fingerprint for 'compilerVersion.type' to build cache key: 1aa1eb0ea3a9bf255a7b5489f4f6acc4
+Appending input value fingerprint for 'compilerVersion.vendor' to build cache key: d65e4da1484c96b8e9f0ac572d326af5
+Appending input value fingerprint for 'compilerVersion.version' to build cache key: 154e636894f9534d2c3ed515387557fa
+Appending input value fingerprint for 'debuggable' to build cache key: f6d7ed39fe24031e22d54f3fe65b901c
+Appending input value fingerprint for 'macros' to build cache key: cfcc5f871f42c7c797557fd17748dc17
+Appending input value fingerprint for 'optimized' to build cache key: f6d7ed39fe24031e22d54f3fe65b901c
+Appending input value fingerprint for 'positionIndependentCode' to build cache key: f6d7ed39fe24031e22d54f3fe65b901c
+Appending input value fingerprint for 'targetPlatform' to build cache key: 1a511fdc15c8ea4f13e061b7c0a197be
+Appending input value fingerprint for 'targetPlatform.architecture' to build cache key: a9a1bbf6a476138d0ddb3a966892c88b
+Appending input value fingerprint for 'targetPlatform.architecture.name' to build cache key: 3eb15c64926276b9836b2ee0a31d548a
+Appending input value fingerprint for 'targetPlatform.name' to build cache key: f74c7b4fc5fd289e377de292357a5128
+Appending input value fingerprint for 'targetPlatform.operatingSystem' to build cache key: f3a26ad430c74f7c90804d3248f9ae0d
+Appending input value fingerprint for 'targetPlatform.operatingSystem.name' to build cache key: ca46b47e17bbedccaa6512fe96577455
+Appending input file fingerprints for 'headerDependencies' to build cache key: 6e59715225a0ea1c026c330578431d86 - NAME_ONLY{/wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/src/main/cpp/a.h='a.h' / e947ef1d324f7aa36377aebb183956df, /wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/src/main/cpp/b.h='b.h' / c5743d6c3072103cf1c565fef3aabf02}
+Appending input file fingerprints for 'source' to build cache key: 39af45771c6f79255e944f62c1c8b0b9 - RELATIVE_PATH{/wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/src/main/cpp/subdir/a.cpp='a.cpp' / 16d92aa56b21c1a6a1c370d668618d1c, /wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/src/main/cpp/b.cpp='b.cpp' / 1a6a14d1723ca91c9ab05ed9189c31f0}
+Appending output property name to build cache key: objectFileDir
+Build cache key for task ':lib:compileReleaseCpp' is a25ec34f8127163666403aa97a26ada8
+
+[1m> Task :lib:linkRelease[m[33m UP-TO-DATE[39m
+Appending implementation to build cache key: org.gradle.nativeplatform.tasks.LinkSharedLibrary_Decorated@531869057d90e73ca2026aa1fb95725d
+Appending additional implementation to build cache key: org.gradle.nativeplatform.tasks.LinkSharedLibrary_Decorated@531869057d90e73ca2026aa1fb95725d
+Appending input value fingerprint for 'compilerVersion' to build cache key: cc37ced03904da05cce6e71e5a62517f
+Appending input value fingerprint for 'compilerVersion.type' to build cache key: 1aa1eb0ea3a9bf255a7b5489f4f6acc4
+Appending input value fingerprint for 'compilerVersion.vendor' to build cache key: d65e4da1484c96b8e9f0ac572d326af5
+Appending input value fingerprint for 'compilerVersion.version' to build cache key: 154e636894f9534d2c3ed515387557fa
+Appending input value fingerprint for 'debuggable' to build cache key: f6d7ed39fe24031e22d54f3fe65b901c
+Appending input value fingerprint for 'installName' to build cache key: a8feeabc222313b2ac4e7704ec28e688
+Appending input value fingerprint for 'linkerArgs' to build cache key: 8222d82255460164427051d7537fa305
+Appending input value fingerprint for 'targetPlatform' to build cache key: 1a511fdc15c8ea4f13e061b7c0a197be
+Appending input value fingerprint for 'targetPlatform.architecture' to build cache key: a9a1bbf6a476138d0ddb3a966892c88b
+Appending input value fingerprint for 'targetPlatform.architecture.name' to build cache key: 3eb15c64926276b9836b2ee0a31d548a
+Appending input value fingerprint for 'targetPlatform.name' to build cache key: f74c7b4fc5fd289e377de292357a5128
+Appending input value fingerprint for 'targetPlatform.operatingSystem' to build cache key: f3a26ad430c74f7c90804d3248f9ae0d
+Appending input value fingerprint for 'targetPlatform.operatingSystem.name' to build cache key: ca46b47e17bbedccaa6512fe96577455
+Appending input file fingerprints for 'libs' to build cache key: 5fd1e7396e8de4cb5c23dc6aadd7787a - RELATIVE_PATH{EMPTY}
+Appending input file fingerprints for 'source' to build cache key: 48a7b7043a48e61b3dd8e0e421e5dc17 - RELATIVE_PATH{/wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/build/obj/main/release/3362pzgb8v6u5g3ibhmgh60ns/a.o='3362pzgb8v6u5g3ibhmgh60ns/a.o' / b5ab8219604da232e7129768ec63d9e0, /wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/build/obj/main/release/cjhn1xcwq2x5dfvf41hilmn6y/b.o='cjhn1xcwq2x5dfvf41hilmn6y/b.o' / 2973bcee1c770858d9b830744c45e37f}
+Appending output property name to build cache key: destinationDirectory
+Appending output property name to build cache key: linkedFile
+Non-cacheable because Not made cacheable, yet [NOT_CACHEABLE]
+
+[1m> Task :lib:extractSymbolsRelease[m[33m UP-TO-DATE[39m
+Appending implementation to build cache key: org.gradle.nativeplatform.tasks.ExtractSymbols_Decorated@531869057d90e73ca2026aa1fb95725d
+Appending additional implementation to build cache key: org.gradle.nativeplatform.tasks.ExtractSymbols_Decorated@531869057d90e73ca2026aa1fb95725d
+Appending input value fingerprint for 'targetPlatform' to build cache key: 1a511fdc15c8ea4f13e061b7c0a197be
+Appending input value fingerprint for 'targetPlatform.architecture' to build cache key: a9a1bbf6a476138d0ddb3a966892c88b
+Appending input value fingerprint for 'targetPlatform.architecture.name' to build cache key: 3eb15c64926276b9836b2ee0a31d548a
+Appending input value fingerprint for 'targetPlatform.name' to build cache key: f74c7b4fc5fd289e377de292357a5128
+Appending input value fingerprint for 'targetPlatform.operatingSystem' to build cache key: f3a26ad430c74f7c90804d3248f9ae0d
+Appending input value fingerprint for 'targetPlatform.operatingSystem.name' to build cache key: ca46b47e17bbedccaa6512fe96577455
+Appending input file fingerprints for 'binaryFile' to build cache key: f9d335885bdcf960612845381e45fd4b - IGNORED_PATH{/wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/build/lib/main/release/liblib.so=IGNORED / 23f9078d898a9d25a27891ca0840f837}
+Appending output property name to build cache key: symbolFile
+Non-cacheable because Not made cacheable, yet [NOT_CACHEABLE]
+
+[1m> Task :lib:stripSymbolsRelease[m[33m UP-TO-DATE[39m
+Appending implementation to build cache key: org.gradle.nativeplatform.tasks.StripSymbols_Decorated@531869057d90e73ca2026aa1fb95725d
+Appending additional implementation to build cache key: org.gradle.nativeplatform.tasks.StripSymbols_Decorated@531869057d90e73ca2026aa1fb95725d
+Appending input value fingerprint for 'targetPlatform' to build cache key: 1a511fdc15c8ea4f13e061b7c0a197be
+Appending input value fingerprint for 'targetPlatform.architecture' to build cache key: a9a1bbf6a476138d0ddb3a966892c88b
+Appending input value fingerprint for 'targetPlatform.architecture.name' to build cache key: 3eb15c64926276b9836b2ee0a31d548a
+Appending input value fingerprint for 'targetPlatform.name' to build cache key: f74c7b4fc5fd289e377de292357a5128
+Appending input value fingerprint for 'targetPlatform.operatingSystem' to build cache key: f3a26ad430c74f7c90804d3248f9ae0d
+Appending input value fingerprint for 'targetPlatform.operatingSystem.name' to build cache key: ca46b47e17bbedccaa6512fe96577455
+Appending input file fingerprints for 'binaryFile' to build cache key: f9d335885bdcf960612845381e45fd4b - IGNORED_PATH{/wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/build/lib/main/release/liblib.so=IGNORED / 23f9078d898a9d25a27891ca0840f837}
+Appending output property name to build cache key: outputFile
+Non-cacheable because Not made cacheable, yet [NOT_CACHEABLE]
+
+[1m> Task :lib:assembleRelease[m[33m UP-TO-DATE[39m
+
+[32;1mBUILD SUCCESSFUL[0;39m in 861ms
+4 actionable tasks: 4 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1m=============[0;39;1m> 100% EXECUTING [249ms][m[38D[1B> IDLE[6D[1B[2A[1m<[0;1m-------------> 0% WAITING[m[0K[26D[2B[2A[2K[1B[2K[1A

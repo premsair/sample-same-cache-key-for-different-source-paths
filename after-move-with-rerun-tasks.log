@@ -1,0 +1,52 @@
+
+
+[2A[1m<[0;32;1m======[0;39;1m-------> 50% CONFIGURING [48ms][m[38D[1B[1m> :lib[m[6D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [148ms][m[0K[36D[1B[1m> :lib:compileReleaseCpp[m[24D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [248ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [348ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [448ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [548ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [648ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [748ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [848ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [948ms][m[36D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [1s][m[0K[33D[2B[2A[0K
+[31;1m> Task :lib:compileReleaseCpp[0;39m[31m FAILED[39m[0K
+Appending implementation to build cache key: org.gradle.language.cpp.tasks.CppCompile_Decorated@531869057d90e73ca2026aa1fb95725d
+Appending additional implementation to build cache key: org.gradle.language.cpp.tasks.CppCompile_Decorated@531869057d90e73ca2026aa1fb95725d
+Appending input value fingerprint for 'compilerArgs' to build cache key: 8222d82255460164427051d7537fa305
+Appending input value fingerprint for 'compilerVersion' to build cache key: cc37ced03904da05cce6e71e5a62517f
+Appending input value fingerprint for 'compilerVersion.type' to build cache key: 1aa1eb0ea3a9bf255a7b5489f4f6acc4
+Appending input value fingerprint for 'compilerVersion.vendor' to build cache key: d65e4da1484c96b8e9f0ac572d326af5
+Appending input value fingerprint for 'compilerVersion.version' to build cache key: 154e636894f9534d2c3ed515387557fa
+Appending input value fingerprint for 'debuggable' to build cache key: f6d7ed39fe24031e22d54f3fe65b901c
+Appending input value fingerprint for 'macros' to build cache key: cfcc5f871f42c7c797557fd17748dc17
+Appending input value fingerprint for 'optimized' to build cache key: f6d7ed39fe24031e22d54f3fe65b901c
+Appending input value fingerprint for 'positionIndependentCode' to build cache key: f6d7ed39fe24031e22d54f3fe65b901c
+Appending input value fingerprint for 'targetPlatform' to build cache key: 1a511fdc15c8ea4f13e061b7c0a197be
+Appending input value fingerprint for 'targetPlatform.architecture' to build cache key: a9a1bbf6a476138d0ddb3a966892c88b
+Appending input value fingerprint for 'targetPlatform.architecture.name' to build cache key: 3eb15c64926276b9836b2ee0a31d548a
+Appending input value fingerprint for 'targetPlatform.name' to build cache key: f74c7b4fc5fd289e377de292357a5128
+Appending input value fingerprint for 'targetPlatform.operatingSystem' to build cache key: f3a26ad430c74f7c90804d3248f9ae0d
+Appending input value fingerprint for 'targetPlatform.operatingSystem.name' to build cache key: ca46b47e17bbedccaa6512fe96577455
+Appending input file fingerprints for 'headerDependencies' to build cache key: 6e59715225a0ea1c026c330578431d86 - NAME_ONLY{/wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/src/main/cpp/a.h='a.h' / e947ef1d324f7aa36377aebb183956df, /wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/src/main/cpp/b.h='b.h' / c5743d6c3072103cf1c565fef3aabf02}
+Appending input file fingerprints for 'source' to build cache key: 39af45771c6f79255e944f62c1c8b0b9 - RELATIVE_PATH{/wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/src/main/cpp/subdir/a.cpp='a.cpp' / 16d92aa56b21c1a6a1c370d668618d1c, /wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/src/main/cpp/b.cpp='b.cpp' / 1a6a14d1723ca91c9ab05ed9189c31f0}
+Appending output property name to build cache key: objectFileDir
+Build cache key for task ':lib:compileReleaseCpp' is a25ec34f8127163666403aa97a26ada8
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :lib:compileReleaseCpp[m[24D[1B/wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/src/main/cpp/subdir/a.cpp:1:10: fatal error: a.h: No such file or directory
+ #include "a.h"
+          ^~~~~
+compilation terminated.
+
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':lib:compileReleaseCpp'.
+[33m> [39mA build operation failed.
+      C++ compiler failed while compiling a.cpp.
+  See the complete log at: file:///wrk/xcohdnobkup4/premasai/sample-same-cache-key-for-different-source-paths/lib/build/tmp/compileReleaseCpp/output.txt
+   [33m> [39mC++ compiler failed while compiling a.cpp.
+
+* Try:
+[33m> [39mRun with [1m--stacktrace[m option to get the stack trace.
+[33m> [39mRun with [1m--info[m or [1m--debug[m option to get more log output.
+[33m> [39mRun with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 1s
+[2A[2K[1B[2K[1A
